@@ -1,0 +1,97 @@
+/*Generic*/
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+/*Header*/
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo-container {
+    overflow: hidden;
+    height: 100%;
+    margin-left: 0.25rem;
+}
+
+.logo-container img {
+    height: 100%;
+    width: auto;
+}
+
+.header-right li {
+    text-decoration: underline;
+}
+
+li {
+    float: left;
+    padding: 23.5px;
+}
+
+.main {
+    position: relative;
+    top: 69px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*Banner*/
+
+.banner {
+
+}
+
+.banner .image-container {
+    width: 1200px;
+    height: 700px;
+    margin: 2rem;
+    background-image: url(../Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner .content {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.banner h2 {
+    line-height: 3rem;
+}
+
+.banner h4 {
+    line-height: 2rem;
+}
+
+/*Tea of the month*/
+
+.TOTM {
+    width: 1000px;
+}
